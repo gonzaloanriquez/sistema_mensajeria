@@ -1,0 +1,81 @@
+.general{
+    display: flex;
+    padding:0px;
+    flex-direction: row;
+}
+
+.iconos{
+    padding: 5px;
+}
+
+.persona{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+.texto-persona{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    border: 0px;
+}
+
+.persona p{
+    margin-bottom: 0px;
+}
+.boton_chat{
+    border: 1px solid gray; 
+    display: flex; 
+    justify-content:center;
+    align-items:center;
+    padding:15px;
+    height: 50px;
+}
+.boton{
+    background-color: rgb(24, 240, 9);
+    width:110px;
+    height:40px;
+    border: 0px;
+}
+.img_persona{
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.derecha{
+    display: flex; 
+    flex-direction:column;
+    align-items:center; 
+    justify-content: center;
+    background-color: #bec1bb;
+    border: 1px solid gray;
+}
+
+.izquierda{
+    display:flex; 
+    flex-direction:column; 
+    /* height:100vh;  */
+    /* width:18%;  */
+    /* border:1px solid lightgray; */
+}
+
+.maria{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+    border:1px solid gray;
+    padding: 1%; 
+    align-items:center;
+}
+
+.maria_foto{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    height: 70px;
+    overflow: hidden;
+}
